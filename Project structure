@@ -1,0 +1,78 @@
+life_maxing_app/
+│── android/
+│── ios/
+│── web/
+│── pubspec.yaml
+│── analysis_options.yaml
+│── lib/
+│   ├── main.dart
+│   ├── app.dart
+│   ├── theme/
+│   │    └── dark_theme.dart
+│   │
+│   ├── services/
+│   │    ├── admob_service.dart
+│   │    ├── auth_service.dart
+│   │    ├── firestore_service.dart
+│   │    ├── storage_service.dart
+│   │    └── ai/
+│   │         ├── ai_core.dart
+│   │         ├── ai_chat_service.dart
+│   │         ├── ai_routine_service.dart
+│   │         ├── ai_looks_service.dart
+│   │         ├── ai_hairstyle_service.dart
+│   │         ├── ai_motivation_service.dart
+│   │         └── ai_weekly_service.dart
+│   │
+│   ├── sync/
+│   │    ├── connection_service.dart
+│   │    ├── sync_engine.dart
+│   │    └── sync_queue.dart
+│   │
+│   ├── widgets/
+│   │    ├── banner_ad_widget.dart
+│   │    └── progress_ring.dart
+│   │
+│   ├── screens/
+│       ├── home_screen.dart
+│       ├── routine_screen.dart
+│       ├── ai_chat_screen.dart
+│       ├── profile_screen.dart
+│       │
+│       ├── looks/
+│       │    ├── looks_home.dart
+│       │    ├── face_screen.dart
+│       │    ├── eye_screen.dart
+│       │    ├── skin_screen.dart
+│       │    ├── jawline_screen.dart
+│       │    ├── glowup_screen.dart
+│       │    ├── hairstyle_screen.dart
+│       │    ├── looks_evaluator_screen.dart
+│       │    └── task_page.dart
+│       │
+│       ├── body/
+│       │    ├── body_home.dart
+│       │    ├── workout_screen.dart
+│       │    ├── diet_screen.dart
+│       │    ├── calorie_screen.dart
+│       │    ├── measurements_screen.dart
+│       │    ├── posture_screen.dart
+│       │    ├── breathwork_screen.dart
+│       │    ├── motivation_screen.dart
+│       │    ├── bodyfat_screen.dart
+│       │    └── physique_plan_screen.dart
+│       │
+│       ├── mind/
+│       │    ├── mind_home.dart
+│       │    ├── meditation_screen.dart
+│       │    ├── focus_timer_screen.dart
+│       │    ├── mood_tracker_screen.dart
+│       │    ├── gratitude_screen.dart
+│       │    └── journal_screen.dart
+│       │
+│       └── reports/
+│            └── weekly_report_screen.dart
+│
+└── assets/
+     ├── icons/
+     └── images/
